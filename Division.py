@@ -9,7 +9,7 @@ A = input( "Introduzca un número dividendo :  " )
 B = input( "Introduzca un número divisor :    " )
 
 # En la siguiente linea creo una variable C que cuyo valor será el resultado de la división de A y B
-C =  A // B  
+C =  A / B  
 
 # En la siguiente linea creo una variable que nos dará el modulo de la división entre A y B
 D = A%B
