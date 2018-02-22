@@ -1,6 +1,6 @@
 # coding: UTF-8
 # Daniel Rodas Flores
-# Fecha de creación: 20/02/2018
+# Fecha de creación: 22/02/2018
 import time 
 import os
 
