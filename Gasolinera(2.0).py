@@ -245,7 +245,9 @@ elif (tipo == "3"):
         time.sleep (2)
         
         os.system("clear")
+	
 else:
+	
     os.system("clear")
     
     print "\n"
