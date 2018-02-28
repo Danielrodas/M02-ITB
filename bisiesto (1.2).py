@@ -27,11 +27,11 @@ resto_cuatro = year % 4
 resto_cuatrocientos = year % 400
 
 # Estableceré un control de errores en el cual no se puede utilizar el 0
-if ( year == 0 ):
+if ( year <= 0 ):
     
     print "\n"
     print "\n"
-    print "                No se puede utilizar el 0 para establecer un año"
+    print "                No se puede utilizar el",year, "para establecer un año"
     print "\n"
     print "\n"
 # Comprovaré que no sean número 
