@@ -1,4 +1,4 @@
-#encoding
+#encoding: UTF-8
 #Daniel Rodas
 #Fecha de creación : 22/02/2018  modificación: 01/03/2018
 cajon1 = "Movil"
