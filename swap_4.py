@@ -1,5 +1,6 @@
+#encoding
 #Daniel Rodas
-#Fecha de cración : 22/02/2018
+#Fecha de creación : 22/02/2018  modificación: 01/03/2018
 cajon1 = "Movil"
 cajon2 = "Bocadillo"
 cajon3 = "Boli"
