@@ -7,38 +7,34 @@ from subprocess import call
 call("clear")
 
 salir = "N"
-contar= 1
-limite= input ("Hasta que número desea el amo que cuente? ")
-sumar=0
+limite = input ("Desde que número desea el amo que cuente? ")
+contar = limite
+aciertos = 0
 
-if limite <= 0:
-    print "Operación incorrecta."
-    time.sleep(1.2)
-    call("clear")
-    salir = "S"
-    
-
-
-if (limite % 2 == 0):
-	print "El número", limite, "no es número primo" 
-	salir = "S"
-
-while ( salir=="N" ):
-    # Hago cosas
-
-    print contar
+if (limite <= 0):
+    print "\n"
+    print "Error, no se puede utilizar el", limite, "para dicha operación"
+    print "\n"
+    salir="S"
+else:
+    while ( salir=="N" ):
+        # Hago cosas
+         
+        # Incremento
+        if (limite % contar == 0):
+            aciertos = aciertos +1   
         
-    # Incremento
-    
-    contar = contar + 1
-    
-    time.sleep(0.2)
+        contar = contar - 1
+        
 
-    # Activo indicador de salida si toca
-    if ( contar > limite ): # Condición de salida
-        salir = "S"
-        
-        
-if (limite % i == 0):
-    print contar
-    print  "El Número", limite, "es un número primo" 
+        # Activo indicador de salida si toca
+        if ( contar < 1): # Condición de salida
+            salir = "S"
+            
+    if (aciertos <= 2):
+
+        print "\nSi es número primo \n"
+
+    else:
+
+        print "\nNo es número primo\n"
