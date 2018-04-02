@@ -20,7 +20,8 @@ if (limite < 0):
     salir = "S"
 
 elif (limite == 0):
-    print "\n"	
+    actual = 0
+    print "\n"  
     print actual
     print siguiente
     print "\n"
@@ -41,6 +42,7 @@ elif ( limite > 1 ):
     print "\n"
     print actual 
     print siguiente  
+
        
     while ( salir=="N" ):
         # Hago cosas
