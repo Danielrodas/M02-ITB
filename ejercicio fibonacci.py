@@ -20,22 +20,28 @@ if (limite < 0):
     salir = "S"
 
 elif (limite == 0):
+    print "\n"	
     print actual
     print siguiente
+    print "\n"
     salir = "S"
 
 elif (limite == 1):
     actual = 1
     siguiente = 1
+    print "\n"
     print actual
     print siguiente
+    print "\n"
     salir = "S"
 
 elif ( limite > 1 ): 
 
     extra = actual + siguiente
+    print "\n"
     print actual 
     print siguiente  
+   
     while ( salir=="N" ):
         # Hago cosas
         print extra
@@ -49,4 +55,5 @@ elif ( limite > 1 ):
         vuelta = vuelta + 1
         # Activo indicador de salida si toca
         if (vuelta > limite): # Condición de salida
+                print "\n"
                 salir = "S"
