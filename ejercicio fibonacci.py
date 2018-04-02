@@ -41,7 +41,8 @@ elif ( limite > 1 ):
     print "\n"
     print actual 
     print siguiente  
-    print "\n"   
+    print "\n"
+       
     while ( salir=="N" ):
         # Hago cosas
         print extra
