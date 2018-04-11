@@ -47,7 +47,7 @@ semanas = 0
 if ( numeros_dias < 0 ):
     print "Lo sentimos no puede utilizar números negativos"
     salir= "S"
-if ( numeros_dias > 0 ):    
+if ( numeros_dias >= 0 ):    
     while ( salir=="N" ):
         # Hago cosas
         if (numeros_dias > 364): # Compruebo que sea un año
