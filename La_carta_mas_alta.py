@@ -247,7 +247,7 @@ elif (entras_si_no == "1"): # Si presiona 1 continuará el juego
 
                 Cartas_Jugador = input("           Introduzca un Número de carta: ")
             
-            else:# Control de errores
+            else:
                 os.system("clear")
                 print """
                     ##############################################
@@ -258,7 +258,7 @@ elif (entras_si_no == "1"): # Si presiona 1 continuará el juego
                      """
                         
                 salir = "S"
-    else: # Control de errores
+    else: 
         os.system("clear")
         print """
             ##############################################
@@ -269,7 +269,7 @@ elif (entras_si_no == "1"): # Si presiona 1 continuará el juego
              """
                 
         salir = "S"
-else: # Control de errores
+else: 
     os.system("clear")
     print """
         ##############################################
